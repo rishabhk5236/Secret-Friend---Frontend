@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+i{
+  cursor: pointer;
+}
+
+.fpassword{
+  cursor: pointer;
+  font-size: 1vw;
+  color: rgb(58, 58, 58);
+}
+
+.fpassword:hover{
+  color: rgb(197, 144, 144);
+  border-bottom: 0.1vw solid rgb(197, 144, 144) ;
+}
+
+
+.userDetailMenu{
+  width: 17vw;
+}
+
+.user-detail-name{
+  font-size: 1.9vw;
+  margin-bottom: 1vw;
+}
+
+.user-detail-email , .user-detail-id{
+  font-size: 0.9vw;
+  margin: 0;
+}
