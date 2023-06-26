@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import noteContext from "../Context/Notes/noteContext";
+import '../CSS/Navbar.css';
 
 export default function Navbar() {
   const context = useContext(noteContext);
@@ -89,11 +90,11 @@ export default function Navbar() {
                   Welcome {userDetails.name}
                 </button>
 
-                <div class="dropdown-menu userDetailMenu" aria-labelledby="dropdownMenuLink">
-                  <div className="container">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <div className="container userDetailMenu">
                     <p className="user-detail-name">{userDetails.name}</p>
-                    <p className="user-detail-email">email: {userDetails.email}</p>
-                    <p className="user-detail-id">id : {userDetails.id}</p>
+                    <p className="user-detail-email"><strong>email: </strong>{userDetails.email}</p>
+                    <p className="user-detail-id"><strong>id : </strong>{userDetails.id}</p>
 
                   </div>
                 </div>

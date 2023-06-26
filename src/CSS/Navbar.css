@@ -1,0 +1,18 @@
+.userDetailMenu{
+    width: fit-content;
+}
+
+@media screen and (max-width:600px) {
+    .userDetailMenu .user-detail-name{
+        font-size: 4vw;
+    }
+    
+    .userDetailMenu .user-detail-email{
+        font-size: 3vw;
+    }
+    .userDetailMenu .user-detail-id{
+        font-size: 3vw;
+    }
+
+}
+
